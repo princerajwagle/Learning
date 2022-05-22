@@ -1,0 +1,16 @@
+ec2-user
+sudo su
+yum update -y
+yum install git -y
+git --version
+git config --global user.name "abc"
+git config --global user.email "abc@gmail.com"
+git config --list
+mkdir directoryname
+git init
+cat>filename "put some data"
+git status
+git add .
+git commit -m "my first commit"
+git status
+git log
