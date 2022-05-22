@@ -18,3 +18,8 @@ git show commitid
 git remote add orgin centralrepourl
 git push -u orgin master
 enter username and password or get a token
+for pulling
+git init
+git remote add origin  <giturl>
+git pull origin master
+git log
